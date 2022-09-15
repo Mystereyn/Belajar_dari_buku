@@ -1,0 +1,15 @@
+
+/* Reset for all tag padding and margin */
+/* Padding = dalam , Margin = luar */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
