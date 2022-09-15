@@ -6,10 +6,19 @@
     margin: 0;
 }
 
-#header {
+#header  {
     font-family: 'Roboto' , sans-serif;
     font-size: 25px;
     font-style: italic;
     text-align: center;
+    color: black;
 }
+
+/* Untuk warna background keseluruhan */
+
+body {
+    background-color: coral;
+    
+}
+
 
