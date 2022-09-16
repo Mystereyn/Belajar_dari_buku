@@ -11,14 +11,12 @@
     font-size: 25px;
     font-style: italic;
     text-align: center;
-    color: black;
+    color: white;
 }
-
-/* Untuk warna background keseluruhan */
-
 body {
-    background-color: coral;
-    
+    background-color: brown;
 }
-
-
+.task {
+    position: relative;
+    display: inline-block;
+}
