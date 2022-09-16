@@ -15,8 +15,17 @@
 }
 body {
     background-color: brown;
+
 }
-.task {
-    position: relative;
-    display: inline-block;
+.tasks {
+    position: absolute;
+    display: block;
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+    border: 3px;
+}
+
+button, input {
+    
 }
