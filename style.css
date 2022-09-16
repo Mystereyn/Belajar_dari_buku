@@ -21,11 +21,16 @@ body {
     position: absolute;
     display: block;
     border-radius: 25px;
-    margin: auto;
-    padding: 10px;
+    margin-left: 10px 20px;
+    padding: 25px 25px;
     border: 3px;
 }
 
-button, input {
+/* button, input {
     
-}
+} */
+
+/* button {
+    background-color: brown;
+    color: azure;
+} */
