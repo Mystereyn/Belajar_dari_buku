@@ -33,6 +33,8 @@ if((i < 70) && (right == 1)) {
     left = 1;
 };
 
+// move to left
+
 if((i > 0) && (left == 1)) {
     i--;
     ctx.translate(i,0);
@@ -43,4 +45,31 @@ if((i > 0) && (left == 1)) {
 
 ctx.drawImage(pesawat, 90,255,pesawat.width/2, plane.height/2);
 
-// move to left
+// obstacle / rintangan
+
+i_obs++;
+
+ctx.restore();
+ctx.save();
+// warna
+ctx.fillStyle = 'rgba(255,255,255)';
+
+ctx.translate(0, i_obs);
+
+ctx.fillRect(100, -70, 30, 8);
+ctx.fillRect(150, 0, 30, 8);
+ctx.fillRect(100, 70, 30, 8);
+ctx.fillRect(150, 140, 30, 8);
+ctx.fillRect(100, 210, 30, 8);
+
+//ketika di refresh
+
+if(i_obs == 423) {
+    i_obs = 0;
+}
+
+// background
+
+ctx.restore();
+ctx.fillStyle = 'rgba(0,0,0)';
+ctx.fillRect(0,0, canvas.width, canvas.height);
