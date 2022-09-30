@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif, monospace;
+    font-size: 30px;
+    position: fixed;
+}
