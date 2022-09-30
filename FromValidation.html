@@ -14,7 +14,18 @@
             <br>
         </label>
         <label for="Input_Alamat">Alamat
-            <textarea id="Address" name="Address" type="text" cols="30" rows="5"></textarea>
+            <textarea id="Address" name="Address" type="text" cols="30" rows="5" required></textarea>
+            <br>
+        <label for="No_Telepone">Nomor Telepon</label>
+        <input type="text" minlength="8" name="Telepon" id="No_Telepone" pattern="\+62?(\d+)+|\(\d+\)">
+            <br>
+        <label for="Email"> Email
+            <input type="email" id="email" placeholder="input_email">
+        </label>
+        <br>
+        <!-- min = inputan default-->
+        <label for="umur"> umur
+            <input type="number" id="umur" placeholder="input_umur" min="12">
     </form>
 </body>
 </html>
